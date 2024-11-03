@@ -1,0 +1,55 @@
+.resultados{
+    width: 100%;
+    /*max-width: 1200px;*/
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    min-height: 0px;
+    margin-top: 50px;
+    
+    }
+    
+    .resultados .carta {
+        width: 330px;
+        height: 460px;
+        
+        margin: 20px;
+        text-align: center;
+        transition: all 0.25s;
+        color: rgb(3, 0, 0);
+        z-index: 30;
+        background-image: url("/imagenes/WEB-RARE-GOLD-T23.png");
+        background-image: no-repeat;
+        background-image: fixed;
+        background-image: center;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+    }
+    
+    .resultados .carta:hover{
+    transform: translateY(-15px);
+    box-shadow: 0 12px 16px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    }
+    
+    .resultados .carta img{
+     margin-top: 60px;
+     width: 180px;
+     height: 180px;
+     border-radius: 10px 10px 0 0;   
+    }
+    
+    .resultados .carta h4{
+        font-weight: 600;
+        
+    }
+    .resultados .carta p{
+        
+        font-size: 16px;
+        font-weight: 300;
+    
+    }
+
