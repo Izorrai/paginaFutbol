@@ -1,6 +1,17 @@
 .contenedor-buscador {
     position: relative;
     margin-bottom: 1rem;
+    margin-bottom: 20px;
+}
+
+.once-ideal p {
+ 
+    color: rgb(0, 17, 252);
+}
+
+.contenedor-input-busqueda{
+
+padding-bottom: 20px;    
 }
 
 .contenedor-resultados {

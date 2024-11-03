@@ -249,6 +249,7 @@ function crearBusquedaPortero() {
     const contenedor = document.getElementById("once-ideal");
     
     const titulo = document.createElement("p");
+    
     titulo.innerText = "Elige un portero para tu once ideal";
     contenedor.appendChild(titulo);
 

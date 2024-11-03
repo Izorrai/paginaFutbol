@@ -47,7 +47,7 @@ async function recibirLiga(paisId) {
         mostrarResultadoLigas(datos); 
     } catch (error) {
         console.log(error);
-        const container = document.getElementById("resultados");
+        const container = document.getElementById("resultados2");
         container.innerText += `Error al buscar liga para el país con ID: ${paisId}.<br>`;
     }
 }
@@ -70,7 +70,7 @@ function crearBotonesTopLigas() {
         buttonElement.value = boton.value;
 
         buttonElement.addEventListener("click", async () => {
-            const container = document.getElementById("resultados");
+            const container = document.getElementById("resultados2");
             container.innerHTML = ''; 
             
             const ids = await recibirPais(boton.value);
@@ -88,7 +88,7 @@ function crearBotonesTopLigas() {
 }
 
 function mostrarResultadoLigas(datosLigas) {
-    const container = document.getElementById("resultados");
+    const container = document.getElementById("resultados2");
 
     if (!datosLigas || datosLigas.length === 0) {  
         container.innerHTML += `No se encontraron ligas para este país.<br>`;
@@ -142,7 +142,7 @@ async function recibirInfoLiga(ligaId){
         mostrarDatosLigas(datos); 
     } catch (error) {
         console.log(error);
-        const container = document.getElementById("resultados");
+        const container = document.getElementById("resultados2");
         container.innerText += `Error al obtener información para la liga con ID: ${ligaId}.<br>`;
     }
 }
@@ -150,7 +150,7 @@ async function recibirInfoLiga(ligaId){
 
 
 function mostrarDatosLigas(datosEquipos) {
-    const container = document.getElementById("resultados");
+    const container = document.getElementById("resultados2");
 
     if (!datosEquipos || datosEquipos.length === 0) {  
         container.innerHTML += `No se encontraron equipos para esta liga.<br>`;
@@ -187,6 +187,10 @@ function mostrarDatosLigas(datosEquipos) {
                 const puesto = document.createElement("p")
                 jugadorDiv.innerText = jugador.player_name || "No disponible";
                 imagenJugador.src = jugador.player_image || "https://apiv3.apifootball.com/badges/players/97489_t-messing.jpg";
+                image.onerror = function() {
+                    image.src = "https://apiv3.apifootball.com/badges/players/97489_t-messing.jpg";
+                };
+
                 puesto.innerText = jugador.player_type || "No disponible";
 
                 contenedorJugadores.appendChild(jugadorDiv);

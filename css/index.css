@@ -28,15 +28,23 @@ body, html
 }
 .parallax3
 {
-	background-image:url();
+	background-image:url(/imagenes/5687688.jpg);
 	min-height:80%;
 }
 .parallax4
 {
+	background-image:url(/imagenes/5687688.jpg);
+	min-height:100%;
+}
+
+.parallax5
+{
 	background-image:url();
 	min-height:100%;
 }
-.parallax1, .parallax2, .parallax3, .parallax4
+
+
+.parallax1, .parallax2, .parallax3, .parallax4, .parallax5
 {
 position:relative;
 opacity:0.8;

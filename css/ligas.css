@@ -1,16 +1,16 @@
 
 .ligasTop{
-padding: 15px;
-justify-content: left;
-display: flex;
-background-color: red;
-border-radius: 10px;
-margin: 10px;
-}
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 5px;
+    }
 .ligasTop p{
 margin-left: 10px;
 font-size: 20px;
-color: white;
+color: rgb(7, 7, 7);
 }
 .ligasTop img
 {
@@ -20,11 +20,12 @@ height: 64px;
 
 .ligasTopBotones button{
 border-radius: 10px;
-margin: 5px;
+margin: 20px;
 font-size: 20px;
 color: white;
-background-color: blue;
-border-color: blue;
+background-color: grey;
+border-color: grey;
+padding: 10px;
 }
 
 .ligasTopBotones button:hover{
@@ -35,17 +36,18 @@ cursor: pointer;
 
 
 .informacionEquipo{
-background-color: red;  
-border-radius: 10px;
-padding: 10px;
-margin: 10px;
-text-align: center; 
-}
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+    margin: 5px;
+    }
 
 .informacionEquipo img{
 margin: 10px;
 height: 32px;   
-
+height: 64px;
 }
 
 .jugadores{
