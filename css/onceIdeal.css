@@ -1,0 +1,29 @@
+.contenedor-buscador {
+    position: relative;
+    margin-bottom: 1rem;
+}
+
+.contenedor-resultados {
+    position: absolute;
+    width: 100%;
+    max-height: 300px;
+    overflow-y: auto;
+    z-index: 1000;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 4px;
+    margin-top: 4px;
+}
+
+.tarjeta {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 4px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.tarjeta:hover {
+    background-color: #f5f5f5;
+}

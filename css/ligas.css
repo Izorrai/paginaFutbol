@@ -1,0 +1,72 @@
+
+.ligasTop{
+padding: 15px;
+justify-content: left;
+display: flex;
+background-color: red;
+border-radius: 10px;
+margin: 10px;
+}
+.ligasTop p{
+margin-left: 10px;
+font-size: 20px;
+color: white;
+}
+.ligasTop img
+{
+height: 64px;
+}
+
+
+.ligasTopBotones button{
+border-radius: 10px;
+margin: 5px;
+font-size: 20px;
+color: white;
+background-color: blue;
+border-color: blue;
+}
+
+.ligasTopBotones button:hover{
+
+cursor: pointer;
+
+}
+
+
+.informacionEquipo{
+background-color: red;  
+border-radius: 10px;
+padding: 10px;
+margin: 10px;
+text-align: center; 
+}
+
+.informacionEquipo img{
+margin: 10px;
+height: 32px;   
+
+}
+
+.jugadores{
+text-align: center;
+
+
+}
+
+.jugador img{
+
+height: 64px;
+width: 64px;
+
+}
+
+
+
+
+
+
+
+
+
+

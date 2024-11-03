@@ -1,0 +1,45 @@
+
+
+
+.buscador {
+    background-color: rgba(255, 255, 255, 0.7);
+    border: 1px solid #ccc;
+    border-radius: 15px 15px 15px 0px;
+    border-color: rgba(0, 0, 0, 0);
+    padding: 10px;
+    width: 400px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.205);
+    transition: border-color 0.3s;
+    margin: 0;
+    border-right: none;
+    font-size: 16px;
+}
+
+.buscador:focus {
+    outline: none;
+    border-color: #007bff;
+    background-color: rgba(255, 255, 255, 0.9);
+}
+
+.boton-buscar-jugador {
+    background-color: #007bff;
+    color: white;
+    border: 1px solid #007bff;
+    border-radius: 0 15px 15px 0;
+    padding: 8px 20px;
+    cursor: pointer;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.548);
+    transition: all 0.3s ease;
+    height: 40px; 
+    margin-left: -12%;
+    font-size: 16px;
+    
+}
+
+.boton-buscar-jugador:hover {
+    background-color: #0056b3;
+    border-color: #0056b3;
+    
+}
+
+

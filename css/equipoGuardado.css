@@ -1,0 +1,48 @@
+.equipo-guardado {
+    margin: 20px 0;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.seccion-equipo {
+    margin: 15px 0;
+}
+
+.fila-jugadores {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin: 10px 0;
+}
+
+.tarjeta-jugador {
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    width: 200px;
+}
+
+.tarjeta-jugador img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+.boton-borrar-equipo {
+    background-color: #ff4444;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    margin: 20px 0;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton-borrar-equipo:hover {
+    background-color: #cc0000;
+}
+

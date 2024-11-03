@@ -1,0 +1,103 @@
+.carousel {
+    max-width: 900px;
+    margin: 0 auto;
+    background: white;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    padding: 20px;
+    position: relative;
+}
+
+.partido {
+    display: none;
+    padding: 20px;
+}
+
+.partido.activo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.equipo {
+    text-align: center;
+    width: 150px;
+}
+
+.equipo img {
+    width: 60px;
+    height: 60px;
+    object-fit: contain;
+}
+
+.equipo p {
+    margin-top: 10px;
+    font-weight: bold;
+   
+}
+
+.marcador {
+    text-align: center;
+}
+
+.goles {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.tiempo {
+    color: #666;
+}
+
+.botones {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    left: 0;
+    transform: translateY(-50%);
+    display: flex;
+    justify-content: space-between;
+    padding: 0 10px;
+}
+
+.boton {
+    background: rgba(255,255,255,0.9);
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    font-size: 20px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.boton:hover {
+    background: white;
+}
+
+.cargando {
+    text-align: center;
+    padding: 40px;
+}
+
+.indicadores {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 15px;
+}
+
+.indicador {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background: #ddd;
+    cursor: pointer;
+}
+
+.indicador.activo {
+    background: #3b82f6;
+    width: 20px;
+    border-radius: 4px;
+}
